@@ -1,3 +1,3 @@
 # Math-for-Data-Science
 
-printf("Hello!);
+printf("Hello!");
