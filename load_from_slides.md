@@ -2,9 +2,18 @@
 
 This code is designed to set up the environment for converting PDF files to images using Python. It includes the installation of required dependencies and the importation of essential Python libraries.
 
-## Code Explanation
+''' python
+%%capture
+!apt-get install poppler-utils
+!pip install pdf2image
+from pdf2image import convert_from_path
+import requests
+import matplotlib.pyplot as plt
+import numpy as np
+from skimage.io import imread
+from skimage.transform import resize
 
-The code snippet you provided performs the following actions:
+## Code Explanation
 
 1. `%%capture`: This is a Jupyter Notebook magic command that captures the output of subsequent shell commands (commands prefixed with `!`) and prevents them from being displayed in the notebook cell's output. It's often used to hide command output when running cells in a notebook.
 
@@ -40,24 +49,33 @@ The provided code sets up the necessary environment for PDF to image conversion 
 
 2. Utilize the imported libraries such as `requests`, `matplotlib.pyplot`, `numpy`, `skimage.io`, and `skimage.transform` to work with the converted images as needed.
 
-''' python
-%%capture
-!apt-get install poppler-utils
-!pip install pdf2image
-from pdf2image import convert_from_path
-import requests
-import matplotlib.pyplot as plt
-import numpy as np
-from skimage.io import imread
-from skimage.transform import resize
-
-
 ---
 
 
 # Image Plotter and Google Slides to Images Converter
 
-This code is a Python script that provides two main functions: one for plotting images and another for converting Google Slides presentations to images. Below, we explain each of these functions.
+''' python
+def plot(x):
+    fig, ax = plt.subplots()
+    im = ax.imshow(x, cmap = 'gray')
+    ax.axis('off')
+    fig.set_size_inches(5, 5)
+    plt.show()
+
+def get_google_slide(url):
+    url_head = "https://docs.google.com/presentation/d/"
+    url_body = url.split('/')[5]
+    page_id = url.split('.')[-1]
+    return url_head + url_body + "/export/pdf?id=" + url_body + "&pageid=" + page_id
+
+def get_slides(url):
+    url = get_google_slide(url)
+    r = requests.get(url, allow_redirects=True)
+    open('file.pdf', 'wb').write(r.content)
+    images = convert_from_path('file.pdf', 500)
+    return images
+    
+This code is a Python script that provides two main functions: one for plotting images and another for converting Google Slides presentations to images. Below is an explanation for each of these functions:
 
 ## 1. `plot(x)`
 
@@ -104,24 +122,3 @@ To use these functions:
 3. Use the `get_slides(url)` function to convert a Google Slides presentation to a list of images. Provide the Google Slides URL as the argument.
 
 4. You can then work with the returned list of images as needed.
-
-''' python
-def plot(x):
-    fig, ax = plt.subplots()
-    im = ax.imshow(x, cmap = 'gray')
-    ax.axis('off')
-    fig.set_size_inches(5, 5)
-    plt.show()
-
-def get_google_slide(url):
-    url_head = "https://docs.google.com/presentation/d/"
-    url_body = url.split('/')[5]
-    page_id = url.split('.')[-1]
-    return url_head + url_body + "/export/pdf?id=" + url_body + "&pageid=" + page_id
-
-def get_slides(url):
-    url = get_google_slide(url)
-    r = requests.get(url, allow_redirects=True)
-    open('file.pdf', 'wb').write(r.content)
-    images = convert_from_path('file.pdf', 500)
-    return images
