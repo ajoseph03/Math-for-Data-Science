@@ -2,7 +2,7 @@
 
 This README explains a simple Python code snippet that iterates over a list of images, plots each image, and prints its shape using Python libraries like Matplotlib and NumPy.
 
-for i in range(n):
+for i in range(n): 
 
     plot(image_list[i])
     print(np.array(image_list[i]).shape)
