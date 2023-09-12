@@ -2,10 +2,12 @@
 
 This README explains a simple Python code snippet that iterates over a list of images, plots each image, and prints its shape using Python libraries like Matplotlib and NumPy.
 
+'''python
 for i in range(n): 
 
     plot(image_list[i])
     print(np.array(image_list[i]).shape)
+'''
 
 ## Code Explanation
 
@@ -37,10 +39,12 @@ This code is helpful when you need to visualize a collection of images and under
 
 This README explains a simple Python code snippet that configures dimensions for working with a list of images. The code sets variables for the number of images, height, width, and the number of color channels.
 
+'''python
 n = len(image_list)
 h = 512
 w = 512
 c = 3
+'''
 
 ## Code Explanation
 
