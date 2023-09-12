@@ -2,7 +2,7 @@
 
 This code is designed to set up the environment for converting PDF files to images using Python. It includes the installation of required dependencies and the importation of essential Python libraries.
 
-''' python
+'''python
 %%capture
 !apt-get install poppler-utils
 !pip install pdf2image
@@ -54,7 +54,7 @@ The provided code sets up the necessary environment for PDF to image conversion 
 
 # Image Plotter and Google Slides to Images Converter
 
-''' python
+'''python
 def plot(x):
     fig, ax = plt.subplots()
     im = ax.imshow(x, cmap = 'gray')
