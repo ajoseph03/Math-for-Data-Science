@@ -155,7 +155,6 @@ The given code snippet is written in Python and uses the NumPy library to create
 
 After running this code, the variable `x` will contain a NumPy array with 10 random numbers, all of which will be between 0 (inclusive) and 1 (exclusive). The values in `x` will change every time you execute this code due to the random nature of the `rand()` function. You can access and manipulate the elements of `x` as needed for your specific application.
 
-*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
 
 The code `x.shape` is a common operation in NumPy, a Python library for numerical and scientific computing. It is used to access the shape of a NumPy array `x`. The shape of an array defines its dimensions, such as the number of rows and columns in a matrix or the length of a one-dimensional array.
 
@@ -195,7 +194,6 @@ Here are a few examples to illustrate how it works:
 
 You can use the information from `x.shape` to understand the size and structure of NumPy arrays, which is crucial when performing various operations and computations on them.
 
-*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
 
 In the context of the previous code snippet, the code `2*x` is performing scalar multiplication on a NumPy array `x`. Scalar multiplication involves multiplying each element of the array by a scalar (in this case, the scalar is 2).
 
@@ -229,7 +227,6 @@ Each element of the original array `x` has been multiplied by 2, resulting in th
 
 This operation is efficient in NumPy and can be used for various mathematical operations on arrays, making it a powerful tool for numerical and scientific computing.
 
-*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
 
 The code `m = np.random.rand(5, 5)` is creating a 2-dimensional NumPy array (matrix) named `m`, where all of its elements are filled with random numbers between 0 (inclusive) and 1 (exclusive).
 
@@ -330,7 +327,6 @@ In this example, `plt.imshow(m, cmap='gray')` displays the contents of the `m` m
 
 This code is often used in data analysis and scientific computing to visualize data stored in matrices or arrays, such as images, heatmaps, or other 2D data representations.
 
-*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
 
 `x = np.random.rand(5, 1)` is using NumPy to create a random column vector `x` with 5 elements. Let's break down what this code does:
 
