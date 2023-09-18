@@ -1,0 +1,12 @@
+# Matplotlib Basics
+
+## Introduction
+
+Matplotlib is a powerful Python library for creating high-quality data visualizations, such as charts, graphs, and plots. It is widely used in data science, scientific research, and engineering for visualizing data and conveying insights. This README will guide you through the basics of Matplotlib.
+
+## Installation
+
+Before using Matplotlib, you need to install it. You can do this using `pip`, Python's package manager:
+
+```bash
+pip install matplotlib
