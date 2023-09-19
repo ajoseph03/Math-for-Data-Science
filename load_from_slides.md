@@ -124,8 +124,6 @@ To use these functions:
 4. You can then work with the returned list of images as needed.
 
 
-Certainly! Below is a README file that explains the provided code snippet:
-
 # Understanding a Loop for Plotting Images and Printing Shapes
 
 ## Code Explanation
