@@ -161,3 +161,49 @@ To use this code snippet:
 4. The `image_array` now contains the processed images, ready for further analysis, display, or any other tasks you have in mind.
 
 This code is useful when you need to preprocess a list of images, apply a common operation (resizing in this case), and store the results in an array for further use.
+
+
+# Explanation of Code: Setting Image Parameters
+
+## Introduction
+
+The provided code is a simple Python script that sets image parameters. These parameters define the characteristics of images that will be processed or manipulated in subsequent code. Let's break down what each line of the code does:
+
+## Code Explanation
+
+```python
+n = len(image_list)
+```
+
+- `n` is a variable that represents the number of images in `image_list`.
+- `len(image_list)` calculates the length (number of elements) in the `image_list`, which is assumed to be a list or an iterable containing images.
+
+```python
+h = 512
+w = 512
+```
+
+- `h` is a variable that represents the height of the images.
+- `w` is a variable that represents the width of the images.
+- In this code snippet, both `h` and `w` are set to 512.
+- These values indicate that the images are expected to have a height and width of 512 pixels each.
+
+```python
+c = 3
+```
+
+- `c` is a variable that represents the number of channels in the images.
+- In this code snippet, `c` is set to 3, which typically corresponds to a color image with three color channels (Red, Green, and Blue), indicating that the images are expected to be in color.
+
+## Purpose
+
+The purpose of this code is to establish the basic parameters for processing a collection of images. By defining `n`, `h`, `w`, and `c`, the code provides essential information about the size and characteristics of the images that will be used in subsequent image processing or analysis tasks. These parameters help ensure consistency and proper handling of the images throughout the code.
+
+## Usage
+
+- You can use this code as a starting point for image processing tasks where you need to specify the image parameters upfront.
+- Modify the values of `h`, `w`, and `c` as needed to match the specific requirements of your image processing project.
+
+## Conclusion
+
+This README explains the provided code, which sets image parameters such as the number of images (`n`), image height (`h`), image width (`w`), and the number of color channels (`c`). These parameters play a crucial role in defining the characteristics of the images that will be processed in subsequent code.
