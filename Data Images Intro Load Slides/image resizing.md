@@ -1,6 +1,6 @@
 ## Introduction
 
-from skimage.transform import resize
+'from skimage.transform import resize'
 
 This line imports the resize function from the skimage.transform module. The resize function is used to change the dimensions of an image, often used for resizing images to specific dimensions.
 
