@@ -1,5 +1,3 @@
-Installing pdf2image using pip
-
 `pdf2image` is a useful library for converting PDF files into images.
 
 ## Prerequisites
