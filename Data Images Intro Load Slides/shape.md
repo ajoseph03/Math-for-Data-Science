@@ -1,3 +1,4 @@
+# shape
 
     print(np.array(image_list[i]).shape)
 
