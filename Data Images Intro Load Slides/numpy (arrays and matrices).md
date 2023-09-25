@@ -1,6 +1,8 @@
 ## Overview
 
+```python
 import numpy as np
+```
 
 This imports the numpy library and gives it the alias np. numpy is a widely-used library for numerical computations in Python, especially for working with arrays and matrices.
 
