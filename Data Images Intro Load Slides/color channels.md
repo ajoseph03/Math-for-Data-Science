@@ -1,4 +1,4 @@
-# Image Color Channels in Python README
+# Image Color Channels in Python
 
 ## Introduction
 
