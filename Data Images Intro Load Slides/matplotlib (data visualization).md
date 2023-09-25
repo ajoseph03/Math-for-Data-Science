@@ -8,7 +8,9 @@ This imports the matplotlib library's pyplot module and gives it the alias plt. 
 
 ## Introduction
 
-`import matplotlib.pyplot as plt` - This line is commonly used in Python scripts and Jupyter notebooks for data visualization using the Matplotlib library. In this document, we will break down the components of this code, its purpose, and its importance in data visualization tasks.
+`import matplotlib.pyplot as plt` 
+
+This line is commonly used in Python scripts and Jupyter notebooks for data visualization using the Matplotlib library. In this document, we will break down the components of this code, its purpose, and its importance in data visualization tasks.
 
 ## Code Explanation
 
