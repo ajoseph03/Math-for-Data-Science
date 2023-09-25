@@ -38,5 +38,3 @@ for i in range(n):
 In this example, it iterates through the `image_list`, converts each image to a NumPy array, and prints the shape of each image to the console.
 
 ---
-
-Feel free to customize this README to include additional information or context relevant to your project or codebase.
