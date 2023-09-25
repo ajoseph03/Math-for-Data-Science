@@ -1,4 +1,4 @@
-## pdf2image
+# pdf2image
 
 `pdf2image` is a useful library for converting PDF files into images.
 
