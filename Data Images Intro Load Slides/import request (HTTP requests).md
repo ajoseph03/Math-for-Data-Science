@@ -1,4 +1,4 @@
-# Readme for `import requests`
+# `import requests`
 
 ## Overview
 
