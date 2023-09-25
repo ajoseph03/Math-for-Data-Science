@@ -1,9 +1,5 @@
 # Batch Image Processing and Storage
 
-This README explains a code snippet that demonstrates batch image processing and storage in Python. The code processes a list of images one by one, visualizes them, resizes them to a specified size, and stores the processed images in an array.
-
-## Code Explanation
-
 ```python
 for i in range(n):
     image = image_list[i]
@@ -14,6 +10,10 @@ for i in range(n):
     print(image.shape)
     image_array[i] = image
 ```
+
+This code processes a list of images one by one, visualizes them, resizes them to a specified size, and stores the processed images in an array.
+
+## Code Explanation
 
 Here's a step-by-step explanation of what each part of the code does:
 
