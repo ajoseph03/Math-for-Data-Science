@@ -1,3 +1,5 @@
+## Introduction
+
 `pdf2image` is a useful library for converting PDF files into images.
 
 ## Prerequisites
