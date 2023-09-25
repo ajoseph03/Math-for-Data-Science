@@ -1,6 +1,8 @@
 # Readme for "import matplotlib.pyplot as plt"
 
+```python
 import matplotlib.pyplot as plt
+```
 
 This imports the matplotlib library's pyplot module and gives it the alias plt. matplotlib is a popular library for creating data visualizations, and pyplot is its module for creating plots and charts.
 
