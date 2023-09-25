@@ -6,10 +6,6 @@ from skimage.io import imread
 
 This line imports the imread function from the skimage.io module. skimage stands for scikit-image, which is a library for image processing in Python. imread is used to read and load images.
 
-```python
-from skimage.io import imread
-```
-
 This code is commonly found in Python scripts or programs that involve image processing or computer vision tasks. It is used to import a specific function called `imread` from the `skimage.io` module, which is part of the scikit-image library. The `imread` function is essential for reading and loading images from various file formats into your Python program for further processing.
 
 ## Dependencies
