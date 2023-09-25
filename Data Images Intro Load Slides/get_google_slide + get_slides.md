@@ -68,11 +68,3 @@ plt.show()
 - A PDF conversion library such as `PyPDF2` or `pdf2image` for converting the downloaded PDF into images.
 
 ---
-
-Feel free to customize this README to include additional information or context relevant to your project or codebase.
-
-Feel free to incorporate this README into your project documentation, and don't forget to customize it to suit your project's specific needs.
-
-
-
-
