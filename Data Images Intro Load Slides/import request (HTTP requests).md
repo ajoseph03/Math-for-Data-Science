@@ -53,15 +53,3 @@ This will download and install the `requests` library from the Python Package In
 For more detailed information on how to use the `requests` library and its features, you can refer to the official documentation:
 
 - [Requests Documentation](https://docs.python-requests.org/en/master/)
-
-## Compatibility
-
-The `import requests` statement is compatible with Python 2 and Python 3, but it is recommended to use Python 3 for new projects, as Python 2 is no longer supported.
-
-## License
-
-The `requests` library is open-source and is distributed under the Apache 2.0 License. You can find more information about the license in the library's documentation.
-
-## Additional Resources
-
-If you want to learn more about making HTTP requests in Python and using the `requests` library effectively, there are numerous online tutorials and resources available. A quick web search can provide you with additional learning materials and examples.
