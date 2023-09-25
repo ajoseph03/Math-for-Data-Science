@@ -1,6 +1,6 @@
 #  `from io import BytesIO`
 
-`from io import BytesIO` in Python. This line of code is an import statement, commonly used in Python scripts and modules to bring external functionality into your code. In this case, it specifically imports the `BytesIO` class from the `io` module.
+This line of code is an import statement, commonly used in Python scripts and modules to bring external functionality into your code. In this case, it specifically imports the `BytesIO` class from the `io` module.
 
 ## Table of Contents
 
