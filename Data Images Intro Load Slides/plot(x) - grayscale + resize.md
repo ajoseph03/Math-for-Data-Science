@@ -20,6 +20,7 @@ def plot(x):
 So, when you call `plot(x)` with a 2D array `x`, it will create a grayscale image representation of that array, turn off the axis labels and ticks, set the figure size to 5x5 inches, and then display the image. This is a common way to visualize 2D data as images using matplotlib in Python.
 
 
+
 # Function: `plot(x)`
 
 ## Description
