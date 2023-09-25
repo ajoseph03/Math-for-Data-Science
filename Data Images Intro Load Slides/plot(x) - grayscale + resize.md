@@ -1,3 +1,25 @@
+'''python
+def plot(x):
+    fig, ax = plt.subplots()
+    im = ax.imshow(x, cmap = 'gray')
+    ax.axis('off')
+    fig.set_size_inches(5, 5)
+    plt.show()
+'''
+
+1. `fig, ax = plt.subplots()`: This line creates a new figure and a set of subplots (axes) within that figure. `fig` is the figure object, and `ax` is the axes object. You'll use `ax` to customize and display your plot.
+
+2. `im = ax.imshow(x, cmap='gray')`: This line creates an image (imshow stands for "image show") on the specified axes `ax` using the 2D array `x`. It also specifies the colormap to use for the image, which in this case is 'gray', indicating a grayscale image.
+
+3. `ax.axis('off')`: This line turns off the axis labels and ticks for the plot. This is often done when displaying images because you typically don't need the axis labels for simple visualizations of images.
+
+4. `fig.set_size_inches(5, 5)`: This line sets the size of the figure (`fig`) to be 5 inches by 5 inches. You can adjust the size to control how large or small the displayed image will be.
+
+5. `plt.show()`: This line displays the figure with the image on it. It's necessary to use `plt.show()` to actually render and show the plot on your screen.
+
+So, when you call `plot(x)` with a 2D array `x`, it will create a grayscale image representation of that array, turn off the axis labels and ticks, set the figure size to 5x5 inches, and then display the image. This is a common way to visualize 2D data as images using matplotlib in Python.
+
+
 # Function: `plot(x)`
 
 ## Description
