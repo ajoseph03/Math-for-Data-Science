@@ -23,7 +23,7 @@ So, when you call `plot(x)` with a 2D array `x`, it will create a grayscale imag
 
 
 
-# Function: `plot(x)`
+## Function: `plot(x)`
 
 ## Description
 The `plot` function is a Python function used to visualize a 2D array `x` as a grayscale image using the matplotlib library. This function is particularly useful for displaying data in a matrix-like format as an image.
