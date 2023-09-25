@@ -1,3 +1,12 @@
+```python
+```python
+def plot(x):
+    fig, ax = plt.subplots()
+    im = ax.imshow(x, cmap='gray')
+    ax.axis('off')
+    fig.set_size_inches(5, 5)
+    plt.show()
+```
 1. `fig, ax = plt.subplots()`: This line creates a new figure and a set of subplots (axes) within that figure. `fig` is the figure object, and `ax` is the axes object. You'll use `ax` to customize and display your plot.
 
 2. `im = ax.imshow(x, cmap='gray')`: This line creates an image (imshow stands for "image show") on the specified axes `ax` using the 2D array `x`. It also specifies the colormap to use for the image, which in this case is 'gray', indicating a grayscale image.
