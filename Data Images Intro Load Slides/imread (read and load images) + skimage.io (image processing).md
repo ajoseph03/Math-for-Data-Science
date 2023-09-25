@@ -1,6 +1,8 @@
 ## Introduction
 
+```python
 from skimage.io import imread
+```
 
 This line imports the imread function from the skimage.io module. skimage stands for scikit-image, which is a library for image processing in Python. imread is used to read and load images.
 
