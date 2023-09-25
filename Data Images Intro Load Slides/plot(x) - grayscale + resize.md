@@ -1,11 +1,12 @@
-'''python
+```python
 def plot(x):
+    import matplotlib.pyplot as plt
+    
     fig, ax = plt.subplots()
-    im = ax.imshow(x, cmap = 'gray')
+    im = ax.imshow(x, cmap='gray')
     ax.axis('off')
     fig.set_size_inches(5, 5)
     plt.show()
-'''
 
 1. `fig, ax = plt.subplots()`: This line creates a new figure and a set of subplots (axes) within that figure. `fig` is the figure object, and `ax` is the axes object. You'll use `ax` to customize and display your plot.
 
