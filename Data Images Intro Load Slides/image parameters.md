@@ -1,11 +1,11 @@
+# Setting Image Parameters
+
 ```python
 n = len(image_list)
 h = 512
 w = 512
 c = 3
 ```
-
-# Setting Image Parameters
 
 In these lines of code, you are defining variables to specify parameters related to image processing and manipulation. These parameters will be used to control the dimensions and channels of images in your code.
 
