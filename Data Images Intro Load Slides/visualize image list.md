@@ -1,4 +1,4 @@
-# Readme: Visualizing and Inspecting Images in a Loop
+# Visualizing and Inspecting Images in a Loop
 
 This README explains a code snippet that demonstrates how to visualize and inspect a list of images in a loop using Python. The provided code allows you to iterate through a list of images (`image_list`) and perform two actions for each image:
 
