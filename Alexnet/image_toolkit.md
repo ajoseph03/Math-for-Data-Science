@@ -3,19 +3,14 @@
 This toolkit provides a series of Python functions designed for handling and processing data, particularly images, using PyTorch and other libraries. These functions enable tasks such as tensor creation on GPU, image plotting, downloading Google Slide presentations as images, and image preprocessing for neural network inputs.
 
 ## Table of Contents
-1. [Installation](#installation)
-2. [Function Descriptions](#function-descriptions)
+1. [Function Descriptions](#function-descriptions)
    - [GPU](#gpu)
    - [GPU_data](#gpu_data)
    - [plot](#plot)
    - [get_google_slide](#get_google_slide)
    - [get_slides](#get_slides)
    - [load](#load)
-3. [Usage](#usage)
-
-## Installation
-
-(Instructions on how to install and setup the toolkit go here)
+2. [Usage](#usage)
 
 ## Function Descriptions
 
